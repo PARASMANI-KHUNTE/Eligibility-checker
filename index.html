@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <div class="logo" id="logo">LOGO</div>
+  
+        <ul class="nav" >
+            <li><a href="#" id="home">HOME</a></li>
+            <li><a href="#" id="profile">PROFILE</a></li>
+            <li><a href="#" id="contact">CONTACT</a></li>
+            <li><a href="#" id="about">ABOUT</a></li>
+        </ul>
+    </div>
+
+
+    <div class="toggel">
+        <button class="switch" id="switch" onClick="change()">
+            <div class="circle" id="circle">
+
+            </div>
+        </button>
+    </div>
+    
+
+    <div class="inputField" id="inputField">
+        <h1>Eligibility cheacker</h1>
+        <form action="" class="field">
+            <ul>
+                <li><input type="text" placeholder="Name" class="name"></li>
+                <li><input type="text" placeholder="Age" class="age"></li>
+                <li><h1 class="result"></h1></li>
+                
+            </ul>
+            <button class="submit" onclick="check()">submit</button>
+            
+            
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
